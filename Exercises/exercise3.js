@@ -1,6 +1,8 @@
 const { MongoClient } = require("mongodb");
 const assert = require("assert");
 
+///this is done to modify the booking seats database!
+
 const bookSeat = async (req, res) => {
   const client = new MongoClient("mongodb://localhost:27017", {
     useUnifiedTopology: true,
